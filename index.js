@@ -7,7 +7,7 @@ const api = require('./routes/api/v0/index.js')
 app.use(express.json());
 
 // routes
-app.use('/api', api)
+app.use('/api/v0', api)
 
 // start server
 app.listen(PORT, () => {
